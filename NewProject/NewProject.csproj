@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\myproject.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\myproject.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\myproject.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\myproject.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\myproject.runtimeconfig.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\myproject.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\myproject.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ADOPractice\AdoPractice.csproj" />
+    <None Include="bin\Debug\netcoreapp3.1\myproject.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\myproject.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\myproject.pdb" />
+    <None Include="myproject.csproj" />
+    <None Include="obj\Debug\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\myproject.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\myproject.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\myproject.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\myproject.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\myproject.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\myproject.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\netcoreapp3.1\myproject.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\myproject.pdb" />
+    <None Include="obj\myproject.csproj.nuget.g.props" />
+    <None Include="obj\myproject.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\netcoreapp3.1\myproject.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\netcoreapp3.1\myproject.assets.cache" />
+    <None Include="obj\Release\netcoreapp3.1\myproject.GeneratedMSBuildEditorConfig.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\netcoreapp3.1\" />
+  </ItemGroup>
+
+</Project>
